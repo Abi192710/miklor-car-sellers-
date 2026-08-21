@@ -127,7 +127,7 @@ function App() {
           <div className="hero-glow"/>
           <div className="hero-grid"/>
           <div className="hero-content">
-            <motion.div className="eyebrow" initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} transition={{.6}}>
+            <motion.div className="eyebrow" initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} transition={{duration:.6}}
               <span className="pulse"/> {t.heroKicker}
             </motion.div>
             <motion.h1 initial={{opacity:0,y:30}} animate={{opacity:1,y:0}} transition={{duration:.75,delay:.1}}>
